@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: graceful-fs update
-        uses: npm install graceful-fs@latest --save
+        run: npm install graceful-fs@latest --save
 
       - name: Install GitBook
         run: npm install gitbook-cli -g
