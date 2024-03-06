@@ -13,23 +13,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Node
+      - name: Setup Node.js environment
         uses: actions/setup-node@v4
 
-      - name: graceful-fs update
-        run: npm install graceful-fs@latest --save
-
-      - name: Install GitBook
-        run: npm install gitbook-cli -g
-      
-      - name: Install Plugins
-        run: gitbook install
-      
-      - name: Build GitBook
-        run: gitbook build
-      
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./
+      - name: Gitbook Action                    
+        uses: ZanderZhao/gitbook-action@v1.2.4  
+        with:                                  
+          token: ${{ secrets.PERSONAL_TOKEN }}
+          source_repo: inu-it-ta/2024-1-datastructure
+          source_branch: main
