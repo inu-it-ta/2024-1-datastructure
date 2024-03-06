@@ -13,6 +13,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+
       - name: Gitbook Action                    
         uses: ZanderZhao/gitbook-action@v1.2.4  
         with:                                  
