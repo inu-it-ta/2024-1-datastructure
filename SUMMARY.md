@@ -1,5 +1,6 @@
 ‌# Summary​
 * [소개](README.md)
+    * [과제 환경설정](docs/common/setup.md)
 
 ## 중간고사 범위
 
