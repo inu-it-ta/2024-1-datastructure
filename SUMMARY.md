@@ -4,9 +4,10 @@
 
 ## 중간고사 범위
 
-* [Second page’s title](page2/README.md)
-    * [Some child page](page2/page2-1.md)
-    * [Some other child page](part2/page2-2.md)
+* [ch1 소개](docs/mid-term/ch1.md)
+* [ch2 순환](docs/mid-term/ch2.md)
+* [ch3 배열과 포인터](docs/mid-term/ch3.md)
+* [ch4 스택](docs/mid-term/ch4.md)
 
 ## 기말고사 범위​
 
