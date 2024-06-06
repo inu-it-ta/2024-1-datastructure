@@ -8,7 +8,12 @@
 * [ch2 순환](docs/mid-term/ch2.md)
 * [ch3 배열과 포인터](docs/mid-term/ch3.md)
 * [ch4 스택](docs/mid-term/ch4.md)
+* [ch6 리스트](docs/mid-term/ch6.md)
 
-## 기말고사 범위​
-
-* [Yet another page](another-page.md)
+## 기말고사 범위
+* [ch5 큐](docs/final/ch5.md)
+* [ch7 연결리스트](docs/final/ch7.md)
+* [ch8 트리](docs/final/ch8.md)
+* [ch9 힙](docs/final/ch9.md)
+* [ch10 그래프](docs/final/ch10.md)
+* [ch11 그래프(2)](docs/final/ch11.md)
